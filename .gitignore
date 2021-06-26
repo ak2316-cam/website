@@ -14,3 +14,4 @@ __pycache__
 id_rsa
 
 auth.yml
+Gemfile.lock
