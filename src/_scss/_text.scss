@@ -1,0 +1,147 @@
+/// This file contains basic styles for body text on the site.
+///
+/// It applies across both pages and posts.  This file should not contain
+/// styles about page layout or positioning.
+
+body {
+  font: 13pt $main-font-family;
+  line-height: $line-height;
+  color: $body-color;
+}
+
+a {
+  @include link_styles($primary-color, 0.2);
+
+  &:visited {
+    @include link_styles($primary-dark, 0.2);
+  }
+}
+
+h1 {
+  color: $primary-color;
+}
+
+h2 {
+  line-height: $line-height;
+  font-weight: normal;
+  margin-top: 2em;
+}
+
+h3 {
+  font-weight: normal;
+  margin-top: 1.8em;
+}
+
+.post__separator + h2 {
+  margin-top: 0em;
+}
+
+blockquote {
+  border-left: $sidebar-border-width solid $midtone-gray;
+  background-color: $pre-background-grey;
+
+  margin-left:  $default-padding;
+  margin-right: $default-padding;
+  padding: 1px ($default-padding - $sidebar-border-width);
+
+  &:not(.update) p:not(.text), li {
+    font-style: italic;
+  }
+
+  @media print {
+    color: $body-color;
+  }
+
+  pre {
+    border-color: #aaa;
+  }
+
+  em {
+    font-style: normal;
+  }
+
+  @media screen and (max-width: $max-width + $default-padding * 3) {
+    margin-left: 0px;
+  }
+
+  p.cite {
+    text-align: right;
+
+    cite::before {
+      content: "— ";
+    }
+  }
+}
+
+// These rules help with the positioning of footnote markers, although
+// I'm not entirely sure how they work.
+sup, sub {
+  vertical-align: 0ex;
+  position: relative;
+}
+
+sub {
+  top: 0.8ex;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+.footnotes {
+  font-size: 1em * $scaling-factor;
+  line-height: $line-height * $scaling-factor;
+}
+
+.title {
+  font-size: 1.9em;
+  font-weight: normal;
+  line-height: 1.45em;
+  a {
+    text-decoration: none;
+  }
+  &.linkpost_title,
+  &.minipost_title {
+    font-size: 1.17em;
+    line-height: 1.35em;
+    padding-top: 12px;
+  }
+  &.linkpost_title {
+    a {
+      text-decoration: underline;
+    }
+    &::after {
+      content: "→";
+      color: $accent-grey;
+    }
+  }
+  a:visited {
+    color: $primary-color;
+  }
+  margin-bottom: -6px;
+}
+
+.content_warning {
+  font-style: italic;
+}
+
+h2, h3 {
+  &:hover {
+    & > a.anchor {
+      display: inline-block;
+    }
+  }
+}
+
+a.anchor {
+  &::after {
+    content: "¶";
+  }
+
+  display: none;
+  text-decoration: none;
+
+  &, &:visited {
+    color: $accent-grey;
+  }
+}

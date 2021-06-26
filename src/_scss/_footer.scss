@@ -1,0 +1,45 @@
+footer {
+  border-top: 1px solid $light-grey;
+  padding-top:    15px;
+  padding-bottom: 15px;
+
+  @media print {
+    display: none;
+  }
+}
+
+#footer_inner {
+  @include central_element();
+
+  font-size: $meta-font-size;
+
+  color: $accent-grey;
+
+  a, a:visited {
+    @include link_styles($accent-grey, 0.2);
+  }
+
+  #contact_links, ul.dot_list {
+    display: inline-block;
+    margin-top:    0px;
+    margin-bottom: 0px;
+  }
+
+  p:not(:last-child) {
+    margin-bottom: 0px;
+  }
+
+  p:not(:first-child) {
+    margin-top: 0px;
+  }
+
+  // These definitions have to live in the #footer_inner block so they
+  // override the a:visited style defined above.
+  #footer__email:hover    { color: $primary-color;  }
+  #footer__github:hover   { color: $github-grey;    }
+  #footer__twitter:hover  { color: $twitter-blue;   }
+  #footer__about:hover    { color: $primary-color;  }
+  #footer__cc:hover       { color: black;           }
+  #footer__mit:hover      { color: black;           }
+  #footer__kofi:hover     { color: $brand__kofi;    }
+}

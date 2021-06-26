@@ -1,0 +1,41 @@
+aside {
+  background: $primary-color;
+  // background: url('/theme/specktre_#{colorToHexString($primary-color)}.png') $primary-color;
+  background-size: auto 100%;
+  @media print {
+    background: none;
+    border-bottom: 2px solid $primary-color;
+  }
+
+  #aside_inner {
+    @include central_element();
+
+    &,
+    a,
+    a:visited {
+      color: white;
+      @media print {
+        color: $primary-color;
+      }
+    }
+
+    a:hover {
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    #brand {
+      margin-bottom: -5px;
+      font-weight: normal;
+      font-size: 1.7em;
+      a {
+        text-decoration: none;
+      }
+    }
+
+    #aside_links ul {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      margin-bottom: 10px;
+    }
+  }
+}

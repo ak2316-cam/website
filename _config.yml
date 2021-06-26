@@ -1,0 +1,51 @@
+title: "ak2316"
+emails:
+  personal: "ak2316@srcf.net"
+  student: "ak2316@srcf.net"
+
+author: "Adam Kelly"
+description: "Lecture Notes, Handouts and Writings of an Undergraduate Mathematics Student at Cambridge."
+url: "https://ak2316.user.srcf.net"
+
+source: "src"
+destination: "_site"
+
+social:
+  github: "adamisntdead"
+  twitter: "adamkelly2201"
+
+date_format: "%-d %B %Y"
+
+permalink: "/:year/:month/:title/"
+
+keep_files: [
+    # Managed by rsync outside the main Jekyll process
+    "files",
+
+    "images",
+    "slides",
+    # Created by a Jekyll plugin
+    "word-count.csv",
+  ]
+
+markdown: "kramdown"
+
+kramdown:
+  auto_ids: true
+  smart_quotes: "lsquo,rsquo,ldquo,rdquo"
+
+  # Disabled so it doesn't interfere with MathJax.
+  math_engine: null
+
+plugins:
+  - "jekyll-sitemap"
+
+highlighter: "rouge"
+
+liquid:
+  error_mode: "strict"
+  strict_filters: true
+
+sass:
+  sass_dir: "_scss"
+  style: "compressed"
