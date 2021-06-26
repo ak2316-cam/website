@@ -31,6 +31,5 @@ jobs:
           LOCAL_DIR: _site
           METHOD: sftp
           PORT: 22
-          ARGS: --delete
         with:
           remote_dir: /public/home/ak2316/public_html
