@@ -21,7 +21,7 @@ jobs:
           server: files.srcf.net
           username: ak2316
           password: ${{ secrets.PASSWORD }}
-          protocol: sftp
+          protocol: ftps
           port: 22
           local-dir: ./_site/
           server-dir: /public/home/ak2316/public_html/
