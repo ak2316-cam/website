@@ -12,6 +12,9 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
 
+      - name: 🏗️ Build the website
+      - uses: helaili/jekyll-action@v2
+
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
         env:
