@@ -1,0 +1,27 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Deploy
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the main branch
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: files.srcf.net
+          username: ak2316
+          password: ${{ secrets.PASSWORD }}
+          protocol: sftp
+          port: 22
+          local-dir: ./_site/
+          server-dir: /public/home/ak2316/public_html/
