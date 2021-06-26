@@ -16,12 +16,41 @@ jobs:
         uses: actions/checkout@v2
 
       - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          server: files.srcf.net
-          username: ak2316
-          password: ${{ secrets.PASSWORD }}
+          ftp-server: sftp://files.srcf.net/
+          ftp-username: ak2316
+          ftp-password: ${{ secrets.PASSWORD }}
           protocol: ftps
           port: 22
           local-dir: ./_site/
           server-dir: /public/home/ak2316/public_html/
+
+
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+    
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@2.0.0
+        env:
+          FTP_SERVER: files.srcf.net
+          FTP_USERNAME: ak2316
+          FTP_PASSWORD: ${{ secrets.PASSWORD }}
+          LOCAL_DIR: _site
+          METHOD: sftp
+          PORT: 22
+          ARGS: --delete
+        with:
+          remote_dir: /public/home/ak2316/public_html
+
