@@ -20,7 +20,6 @@ jobs:
 
       - name: Build the website
         run: bundle exec jekyll build
-        # uses: helaili/jekyll-action@v2
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
