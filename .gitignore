@@ -1,7 +1,7 @@
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
-_site
+
 
 .docker
 
@@ -15,3 +15,5 @@ id_rsa
 
 auth.yml
 Gemfile.lock
+
+_site
