@@ -11,28 +11,27 @@ It is likely that there are errors, which can be assumed to be mine. I welcome a
 
 ## Part IA
 
-- [Groups]() -- Dr A. Khukhro _(Michaelmas 2020)_
-- [Numbers and Sets]() -- Prof I. B. Leader _(Michaelmas 2020)_
-- [Vectors and Matrices]() -- Dr J. M. Evans _(Michaelmas 2020)_
-- [Analysis I]() -- Prof G. Paternain _(Lent 2021)_
+- [Groups](/files/ia-groups/groups.pdf) -- Dr A. Khukhro _(Michaelmas 2020)_
+- [Numbers and Sets](/files/ia-numbers-and-sets/numbers-and-sets.pdf) -- Prof I. B. Leader _(Michaelmas 2020)_
+- [Analysis I](/files/ia-analysis-i/analysis-i.pdf) -- Prof G. Paternain _(Lent 2021)_
 
 ## Part IB
 
-- [Groups, Rings &amp; Modules]() -- Dr T. Fisher _(Lent 2021)_
+Coming once I actually watch some Optimisation and Variational Principles!
 
 ## Part II
 
-- [Graph Theory]() -- Dr J. Sahasrabudhe _(Lent 2021)_
-- [Quantum Information &amp; Computation]() -- Prof R. Jozsa _(Lent 2021)_
+- [Graph Theory](/files/ii-graph-theory/graph-theory.pdf) -- Dr J. Sahasrabudhe _(Lent 2021)_
 
 ## Handouts
 
 These are some short handouts which I have written for various reasons. Hopefully you will find them useful, and as always, feedback is appreciated.
 
-- [Recognizing Direct Products]() -- IA Groups
-- [A Crash Course in Integration in $\mathbb{R}^2$ and $\mathbb{R}^3$]() -- IA Vector Calculus
-- [Qubits and Quantum States]() -- II Quantum Information &amp; Computing
-- [Walkthrough of Bertrand's Postulate]() -- II Number Theory
+- [Recognizing Direct Products](/files/handouts/direct-products/direct-product.pdf) -- IA Groups
+- [Quotient Groups &amp; The Isomorphism Theorem](/files/handouts/isomorphism-theorems/isomorphism-theorems.pdf) -- IA Groups
+- [A Crash Course in Integration in $\mathbb{R}^2$ and $\mathbb{R}^3$](/files/handouts/integration-vc/integration-vc.pdf) -- IA Vector Calculus
+- [Qubits and Quantum States](/files/handouts/quantum-states/quantum-states.pdf) -- II Quantum Information &amp; Computing
+- [Walkthrough of Bertrand's Postulate](/files/handouts/bertrand/bertrands-postulate-walkthrough.pdf) -- II Number Theory
 
 <!-- {% assign posts = site.posts | where_exp: "post", "post.index != nil" | where: "index.best_of", true %}
 {% include archive_list.html %} -->
