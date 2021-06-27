@@ -3,8 +3,6 @@ layout: page
 title: Lecture Notes
 ---
 
-> This page is currently under construction. Most (all) of the links are dead, until I think of a nice way to host the compiled LaTeX files.
-
 This is my own collection of _work in progress_ lecture notes, which correspond to the courses that I have taken whilst doing Mathematics at Cambridge. These notes are _not_ direct transcriptions of the lectures, and tend to be heavily modified after the lectures (typically to suit my own tastes).
 
 It is likely that there are errors, which can be assumed to be mine. I welcome all feedback, and I can be contacted at {{ site.emails.personal | create_mailto_link }}.
