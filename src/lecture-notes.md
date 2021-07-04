@@ -15,11 +15,12 @@ It is likely that there are errors, which can be assumed to be mine. I welcome a
 
 ## Part IB
 
-Coming once I actually watch some Optimisation and Variational Principles!
+- [Varitional Principles](/files/ib-variational-principles/variational-principles.pdf) -- Dr M. Dunajski _(Easter 2021)_, Updated to Lecture 2
+
 
 ## Part II
 
-- [Graph Theory](/files/ii-graph-theory/graph-theory.pdf) -- Dr J. Sahasrabudhe _(Lent 2021)_
+- [Graph Theory](/files/ii-graph-theory/graph-theory.pdf) -- Dr J. Sahasrabudhe _(Lent 2021)_, Updated to Lecture 17
 
 ## Handouts
 
