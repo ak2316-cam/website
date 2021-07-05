@@ -15,7 +15,7 @@ It is likely that there are errors, which can be assumed to be mine. I welcome a
 
 ## Part IB
 
-- [Varitional Principles](/files/ib-variational-principles/variational-principles.pdf) -- Dr M. Dunajski _(Easter 2021)_, Updated to Lecture 2
+- [Variational Principles](/files/ib-variational-principles/variational-principles.pdf) -- Dr M. Dunajski _(Easter 2021)_, Updated to Lecture 2
 
 
 ## Part II
