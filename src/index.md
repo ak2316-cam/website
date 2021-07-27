@@ -22,9 +22,9 @@ post_list_date_format: day_month
 
 ## Welcome! I'm Adam and this is where I put stuff.
 
-I'm a first year Mathematics student at the [University of Cambridge](https://www.undergraduate.study.cam.ac.uk/courses/mathematics), studying at [Gonville and Caius](https://www.cai.cam.ac.uk) College. Currently, I'm also an intern at [Evervault](https://evervault.com), working on making the web a more secure place.
+I'm a first year Mathematics student at the [University of Cambridge](https://www.undergraduate.study.cam.ac.uk/courses/mathematics), studying at [Gonville and Caius](https://www.cai.cam.ac.uk) College. Currently, I'm also spending the summer as an Engineer at [Evervault](https://evervault.com), working on making the web a more secure place.
 
-My main goal in setting up this website is to have a place to put my [lecture notes](/lecture-notes/), along with some of the [olympiad materials](/olympiads/) that I have accumulated. I also have a [blog](/all-posts/), where I write about things that interest me.
+My main goal in setting up this website is to have a place to put my [lecture notes](/lecture-notes/), along with some of the [olympiad materials](/olympiads/) that I have accumulated. I also have a [blog](/all-posts/), where I write about things that interest me. 
 
 ## Recent posts
 
