@@ -20,7 +20,7 @@ It is likely that there are errors, which can be assumed to be mine. I welcome a
 
 ## Part II
 
-- [Graph Theory](/files/ii-graph-theory/graph-theory.pdf) -- Dr J. Sahasrabudhe _(Lent 2021)_, Updated to Lecture 17
+- [Graph Theory](/files/ii-graph-theory/graph-theory.pdf) -- Dr J. Sahasrabudhe _(Lent 2021)_
 
 ## Handouts
 
