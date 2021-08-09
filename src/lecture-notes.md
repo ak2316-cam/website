@@ -12,6 +12,8 @@ It is likely that there are errors, which can be assumed to be mine. I welcome a
 - [Groups](/files/ia-groups/groups.pdf) -- Dr A. Khukhro _(Michaelmas 2020)_
 - [Numbers and Sets](/files/ia-numbers-and-sets/numbers-and-sets.pdf) -- Prof I. B. Leader _(Michaelmas 2020)_
 - [Analysis I](/files/ia-analysis-i/analysis-i.pdf) -- Prof G. Paternain _(Lent 2021)_
+- [Dynamics and Relativity](/files/ia-dynamics-and-relativity/dynamics-and-relativity.pdf) -- Prof P. Haynes _(Lent 2021)_, Condensed Notes
+
 
 ## Part IB
 
