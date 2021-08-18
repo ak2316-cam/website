@@ -30,5 +30,4 @@ jobs:
           LOCAL_DIR: _site
           METHOD: sftp
           PORT: 22
-        with:
-          remote_dir: /home/ak2316/site
+          REMOTE_DIR: /public/home/ak2316/public_html

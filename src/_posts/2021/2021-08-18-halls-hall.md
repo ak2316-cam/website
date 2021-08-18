@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-08-17 19:12:40 +0000
-title: Hall's Hallway, a New Handout on Hall's Marriage Theorem
+title: Hall's Hallway -- A Short Handout on Hall's Marriage Theorem
 summary:
 tags: maths combinatorics
 # index:
