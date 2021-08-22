@@ -5,16 +5,11 @@ title: Olympiad Materials
 
 Here are some notes and problem sets that I created while preparing for various mathematical olympaids.
 
-
-## IrMO Training -- Kickstart Camp
-
-- [Graph Theory: Foundation Problems](/files/olympiad/graph-theory/problems/foundation.pdf) -- A collection of problems using the basic definitions and results of graph theory. 
-
-
 ## Handouts
 
 - [Inversion](/files/olympiad/inversion/inversion.pdf) -- Based on Evan Chen's _Euclidean Geometry in Mathematical Olympiads_
 - [Geometry Revisited - Before Transformations](/files/olympiad/geometry-revisited/geometry-revisited.pdf) -- A rather brief summary of the first three chapters of H. S. M. Coxeter and S. L. Greitzer's _Geometry Revisited_
+- [Introduction to Olympiad Graph Theory](/files/olympiad/graph-theory/handout/handout.pdf) -- A handout and collection of problems covering the basics of Olympiad Graph Theory, created for training with the Irish Mathematical Olympiad team.
 
 ## Problem Sets
 
