@@ -9,6 +9,8 @@ Here are some notes and problem sets that I created while preparing for various 
 ## IrMO Training -- Kickstart Camp
 
 - [Graph Theory: Foundation Problems](/files/olympiad/graph-theory/problems/foundation.pdf) -- A collection of problems using the basic definitions and results of graph theory. 
+
+
 ## Handouts
 
 - [Inversion](/files/olympiad/inversion/inversion.pdf) -- Based on Evan Chen's _Euclidean Geometry in Mathematical Olympiads_
