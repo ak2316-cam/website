@@ -32,8 +32,7 @@ for some $a$. Specifically, we can take. $a = \lfloor \log_2(n) \ell \rfloor$. S
 
 $$
 \begin{aligned}
-f\left(2^a\right) < f\left(n^\ell\right) &< f\left(2^{a+1}\right) \\
-\iff 2^{\alpha a} < n^{\beta \ell} &< 2^{\alpha(a + 1)} \\
+2^{\alpha a} < n^{\beta \ell} &< 2^{\alpha(a + 1)} \\
 \implies \lfloor \log_2(n) \ell\rfloor < \frac{\beta}{\alpha} \log_2(n) \ell &< \lceil \log_2(n) \ell\rceil.
 \end{aligned}
 $$
