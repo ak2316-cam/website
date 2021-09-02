@@ -14,7 +14,7 @@ $$
 $$
 for all $m, n \in \mathbb{N}$.
 
-In 1946, Paul proved a lovely result[^1] about such functions, which we are going to prove!
+In 1946, Paul Erdős proved a lovely result[^1] about such functions, which we are going to prove!
 
 ---
 
