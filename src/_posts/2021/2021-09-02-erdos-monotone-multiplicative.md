@@ -22,30 +22,20 @@ In 1946, Paul proved a lovely result[^1] about such functions, which we are goin
 
 > **Theorem**. If $f: \mathbb{N} \rightarrow \mathbb{R}$ is increasing and totally multiplicative, then $f(n) = n^{\alpha}$, for some $\alpha \in \mathbb{R}$.
 
-*Proof*. Suppose that $f(2) = 2^{\alpha}$, and take $n > 2$ such that $f(n) = 2^{\beta}$.
-
-Then for any $\ell \in \mathbb{N}$, we can write
+*Proof*. Suppose that $f(2) = 2^{\alpha}$, and take $n > 2$ such that $f(n) = 2^{\beta}$. Then for any $\ell \in \mathbb{N}$, we can write
 
 $$
 2^a < n^{\ell} < 2^{a + 1},
 $$
 
-for some $a$. Specifically, we can take
+for some $a$. Specifically, we can take. $a = \lfloor \log_2(n) \ell \rfloor$. Since $f$ is increasing, we must then also have
 
 $$
-a = \lfloor \log_2(n) \ell \rfloor.
-$$
-
-Since $f$ is increasing, we must then also have
-
-$$
-f\left(2^a\right) < f\left(n^\ell\right) < f\left(2^{a+1}\right) \iff 2^{\alpha a} < n^{\beta \ell} < 2^{\alpha(a + 1)},
-$$
-
-which is equivalent to
-
-$$
-\lfloor \log_2(n) \ell\rfloor < \frac{\beta}{\alpha} \log_2(n) \ell < \lceil \log_2(n) \ell\rceil.
+\begin{aligned}
+f\left(2^a\right) < f\left(n^\ell\right) &< f\left(2^{a+1}\right) \\
+\iff 2^{\alpha a} < n^{\beta \ell} &< 2^{\alpha(a + 1)} \\
+\implies \lfloor \log_2(n) \ell\rfloor < \frac{\beta}{\alpha} \log_2(n) \ell &< \lceil \log_2(n) \ell\rceil.
+\end{aligned}
 $$
 
 This implies the inequality
@@ -54,7 +44,7 @@ $$
 \log_2(n) \ell \left|\frac{\beta}{\alpha} - 1\right| \leq 1.
 $$
 
-But this has to hold for all $\ell \in \mathbb{N}$, and thus we must have $\beta = \alpha$. This shows that $f(n) = n^{\alpha}$ for all $n$.
+But this has to hold for all $\ell \in \mathbb{N}$, and thus we must have $\beta = \alpha$, and we're done.
 
 
 
