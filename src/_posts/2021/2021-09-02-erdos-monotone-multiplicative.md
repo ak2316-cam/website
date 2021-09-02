@@ -26,7 +26,7 @@ $$
 2^a < n^{\ell} < 2^{a + 1},
 $$
 
-for $a = \lfloor \log_2(n) \ell \rfloor$. Since $f$ is increasing, evaluating the function at each of the above must still satsify the inequality 
+for $a = \lfloor \log_2(n) \ell \rfloor$. Since $f$ is increasing, evaluating the function at each of the above must still satisfy the inequality 
 
 $$
 \begin{aligned}
