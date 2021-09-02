@@ -14,9 +14,42 @@ $$
 $$
 for all $m, n \in \mathbb{N}$.
 
-In 1946, Paul proved a lovely result[^1] about such functions. In this short article, we are going to prove it.
+In 1946, Paul proved a lovely result[^1] about such functions, which we are going to prove!
 
-[^1]: He actually proved a slightly different result about *additive functions*, which you can imagine the definition of, but the results are equivalent by taking logs. See Erdos, P., 1946. On the distribution function of Additive Functions. The Annals of Mathematics, 47(1).
+---
+
+<br>
+
+> **Theorem**. If $f: \mathbb{N} \rightarrow \mathbb{R}$ is increasing and totally multiplicative, then $f(n) = n^{\alpha}$, for some $\alpha \in \R$.
+
+*Proof*. Suppose that $f(2) = 2^{\alpha}$, and take $n > 2$ such that $f(n) = 2^{\beta}$.
+
+Then for any $\ell \in \mathbb{N}$, we can write
+$$
+2^a < n^{\ell} < 2^{a + 1},
+$$
+for some $a$. Specifically, we can take
+$$
+a = \lfloor \log_2(n) \ell \rfloor.
+$$
+
+Since $f$ is increasing, we must then also have
+$$
+f\left(2^a\right) < f\left(n^\ell\right) < f\left(2^{a+1}\right) \iff 2^{\alpha a} < n^{\beta \ell} < 2^{\alpha(a + 1)},
+$$
+is equivalent to
+$$
+\lfloor \log_2(n) \ell\rfloor < \frac{\beta}{\alpha} \log_2(n) \ell < \lceil \log_2(n) \ell\rceil.
+$$
+This implies the inequality
+$$
+\log_2(n) \ell \left|\frac{\beta}{\alpha} - 1\right| \leq 1.
+$$
+But this has to hold for all $\ell \in \N$, and thus we must have $\beta = \alpha$. This shows that $f(n) = n^{\alpha}$ for all $n$.
+
+
+
+[^1]: He actually proved a slightly different result about *additive functions*, which you can imagine the definition of, but the results are equivalent by taking logs. See *Erdos, P., 1946. On the distribution function of Additive Functions. The Annals of Mathematics, 47(1)*.
 
 
 <!-- 
