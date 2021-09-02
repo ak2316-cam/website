@@ -22,7 +22,7 @@ In 1946, Paul Erdős proved a lovely result[^1] about such functions, which we a
 
 > **Theorem**. If $f: \mathbb{N} \rightarrow \mathbb{R}$ is increasing and totally multiplicative, then $f(n) = n^{\alpha}$, for some $\alpha \in \mathbb{R}$.
 
-*Proof*. Suppose that $f(2) = 2^{\alpha}$, and take $n > 2$ such that $f(n) = 2^{\beta}$. Then for any $\ell \in \mathbb{N}$, we can write
+*Proof*. Suppose that $f(2) = 2^{\alpha}$, and take $n > 2$ such that $f(n) = n^{\beta}$. Then for any $\ell \in \mathbb{N}$, we can write
 
 $$
 2^a < n^{\ell} < 2^{a + 1},
