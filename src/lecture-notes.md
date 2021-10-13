@@ -16,10 +16,11 @@ It is likely that there are errors, which can be assumed to be mine. I welcome a
 
 ## Part IB
 
-- [Markov Chains](/files/ib-markov-chains/markov-chains.pdf) -- Dr P. Sousi _(Michaelmas 2021)_, Updated to Lecture 1
-- [Analysis and Topology](/files/ib-analysis-and-topology/analysis-and-topology.pdf) -- Dr A. Zsák _(Michaelmas 2021)_, Updated to Lecture 1
-- [Linear Algebra](/files/ib-linear-algebra/linear-algebra.pdf) -- Prof P. Raphael _(Michaelmas 2021)_, Updated to Lecture 1
-- [Variational Principles](/files/ib-variational-principles/variational-principles.pdf) -- Dr M. Dunajski _(Easter 2021)_, Updated to Lecture 2
+- [Methods](/files/ib-methods/methods.pdf) -- Prof. E. P. S. Shellard _(Michaelmas 2021)_
+- [Markov Chains](/files/ib-markov-chains/markov-chains.pdf) -- Dr P. Sousi _(Michaelmas 2021)_
+- [Analysis and Topology](/files/ib-analysis-and-topology/analysis-and-topology.pdf) -- Dr A. Zsák _(Michaelmas 2021)_
+- [Linear Algebra](/files/ib-linear-algebra/linear-algebra.pdf) -- Prof P. Raphael _(Michaelmas 2021)_
+- [Variational Principles](/files/ib-variational-principles/variational-principles.pdf) -- Dr M. Dunajski _(Easter 2021)_
 
 ## Part II
 
