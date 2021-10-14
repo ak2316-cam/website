@@ -26,6 +26,10 @@ It is likely that there are errors, which can be assumed to be mine. I welcome a
 
 - [Graph Theory](/files/ii-graph-theory/graph-theory.pdf) -- Dr J. Sahasrabudhe _(Lent 2021)_
 
+## Part III
+
+- [Combinatorics](/files/iii-combinatorics/combinatorics.pdf) -- Prof I. B. Leader _(Michaelmas 2021)_
+
 ## Handouts
 
 These are some short handouts which I have written for various reasons. Hopefully you will find them useful, and as always, feedback is appreciated.
